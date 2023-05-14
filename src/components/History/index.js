@@ -105,7 +105,7 @@ class History extends Component {
   render() {
     const {HistoryList, searchInput, isShow} = this.state
     const searchResult = HistoryList.filter(each =>
-      each.toLowerCase().includes(searchInput.toLowerCase()),
+      each.title.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     return (
