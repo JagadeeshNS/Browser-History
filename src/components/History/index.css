@@ -1,21 +1,21 @@
 .header-container {
   background-color: #3367d6;
-  height: 12h;
+  height: 12vh;
   padding: 15px;
   display: flex;
   justify-content: space-between;
 }
 .logo {
   height: 30px;
-  width: 50px;
-  margin-left: 120px;
+  width: 120px;
+  margin-left: 50px;
   margin-top: 5px;
 }
 .input-container {
   background-color: #2850a7;
 
   display: flex;
-  border: 2px #6697ff solid;
+  border: 2px solid #6697ff;
   border-radius: 10px;
   height: 45px;
   width: 400px;
@@ -25,12 +25,13 @@
 .search-icon {
   height: 30px;
   width: 30px;
-  margin-bottom: 15px;
-  margin-right: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 .search-input {
   border-width: 0px;
-
+  font-size: 20px;
+  color: #475569;
   background-color: transparent;
   margin-right: 30px;
 }
