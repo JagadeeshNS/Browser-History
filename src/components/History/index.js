@@ -95,7 +95,7 @@ class History extends Component {
     const {HistoryList, isShow} = this.state
     const filteredUserDate = HistoryList.filter(each => each.id !== id)
 
-    this.setState((HistoryList: filteredUserDate))
+    this.setState({HistoryList: filteredUserDate})
 
     if (HistoryList.length === 1) {
       this.setState({isShow: true})
@@ -113,7 +113,7 @@ class History extends Component {
         <div className="header-container">
           <img
             src="https://assets.ccbp.in/frontend/react-js/history-website-logo-img.png"
-            alt="logo"
+            alt="app logo"
             className="logo"
           />
           <div className="input-container">
